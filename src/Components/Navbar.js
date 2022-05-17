@@ -35,7 +35,7 @@ function Navbar() {
       <IconContext.Provider value={{ color: '#fff' }}>
         <nav className='navbar'>
           <div className='navbar-container container'>
-            <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+            <Link to='/-React-Project-5/' className='navbar-logo' onClick={closeMobileMenu}>
               <MdFingerprint className='navbar-icon' />
               LAVISH
             </Link>
@@ -44,13 +44,13 @@ function Navbar() {
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
               <li className='nav-item'>
-                <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                <Link to='/-React-Project-5/' className='nav-links' onClick={closeMobileMenu}>
                   Home
                 </Link>
               </li>
               <li className='nav-item'>
                 <Link
-                  to='/services'
+                  to='/-React-Project-5/services'
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
@@ -59,7 +59,7 @@ function Navbar() {
               </li>
               <li className='nav-item'>
                 <Link
-                  to='/products'
+                  to='/-React-Project-5/products'
                   className='nav-links'
                   onClick={closeMobileMenu}
                 >
@@ -68,11 +68,11 @@ function Navbar() {
               </li>
               <li className='nav-btn'>
                 {button ? (
-                  <Link to='/sign-up' className='btn-link'>
+                  <Link to='/-React-Project-5/sign-up' className='btn-link'>
                     <Button buttonStyle='btn--outline'>SIGN UP</Button>
                   </Link>
                 ) : (
-                  <Link to='/sign-up' className='btn-link'>
+                  <Link to='/-React-Project-5/sign-up' className='btn-link'>
                     <Button
                       buttonStyle='btn--outline'
                       buttonSize='btn--mobile'
